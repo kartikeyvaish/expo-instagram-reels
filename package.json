@@ -1,0 +1,49 @@
+{
+  "name": "expo-instagram-reels",
+  "version": "1.0.0",
+  "description": "Instagram Reels component for React Native",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@react-native-community/slider": "^4.1.12",
+    "expo": "~43.0.2",
+    "expo-av": "~10.1.3",
+    "react": "17.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-native": "0.64.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "^17.0.34",
+    "@types/react-native": "^0.66.4",
+    "typescript": "^4.4.4"
+  },
+  "contributors": [
+    {
+      "name": "Kartikey Vaish",
+      "url": "https://github.com/kartikeyvaish"
+    }
+  ],
+  "homepage": "https://github.com/kartikeyvaish/expo-instagram-reels#readme",
+  "bugs": {
+    "url": "https://github.com/kartikeyvaish/expo-instagram-reels/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kartikeyvaish/expo-instagram-reels.git"
+  },
+  "keywords": [
+    "reels",
+    "instagram-reels",
+    "react-native-instagram-reels",
+    "expo-instagram-reel",
+    "youtube-shorts",
+    "react-native-youtube-shorts",
+    "expo-youtube-shorts"
+  ]
+}
