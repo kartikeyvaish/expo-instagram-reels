@@ -7,6 +7,7 @@ import videos from "./utils/videos";
 export default function App() {
   return (
     <View style={styles.container}>
+      <StatusBar barStyle="light-content" />
       <Reels videos={videos} pauseOnOptionsShow={false} />
     </View>
   );
@@ -15,6 +16,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: StatusBar.currentHeight,
   },
 });
